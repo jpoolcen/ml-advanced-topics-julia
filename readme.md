@@ -9,3 +9,6 @@ La intención es comprender a profundidad los conceptos de inferencia bayesiana,
 
 ## 📂 Estructura del Repositorio
 
+En el repositorio puede encontrar seccion acordes a los topicos cubiertos.
+-bayesian: este directorio contiene ejercicios de estimacion de Bayes,distribucion a posteriori, MLE y MAP. En cada ejercicio se anexa una visualizacion. 
+
