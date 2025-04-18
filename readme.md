@@ -52,3 +52,16 @@ Las medidas de divergencias son utiles para: evaluar qué tan cerca estás de la
 Nota: Si dos distribuciones son iguales, esto es P(x)/Q(x)=1, entonces las medidas de divergencia es 0.
 
 Se muestran 3 ejemplos donde se simulan las aproximaciones y la estimacion de las divergencias. Además se incluye una simulación sobre la estimación de la distribución de la prevalencia en municipios con datos ficticios y posteriormente se obtienen las metricas de divergencia.
+
+- 📂 **Conjugate Priors**: este directorio contiene ejercicios sobre los prior.
+Un prior representa tu creencia sobre los parámetros antes de observar los datos. Existen tipos de prior: Informativo (conocimiento previo), No informativo, conjugado, jerarquico y funcional.
+
+Un prior conjugado respecto a una verosimilitud es aquel tal que la posterior es de la misma familia que el prior.
+
+Esto simplifica los cálculos y permite obtener soluciones cerradas.
+
+Un prior empirico se puede estimar con Jefrey y un funcional que utilice Fisher Information.
+
+Un prior informativo se puede tomar a partir de estudios previos.
+
+Jerarquicos en el cual los parametros del prior son aleatorios.
