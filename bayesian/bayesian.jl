@@ -1,4 +1,4 @@
-# teorema de bayes
+# Teorema de bayes
 # Probabilidad de que un paciente tenga una enfermedad dado un resultado positivo en la prueba
 # P(E|T) = P(T|E) * P(E) / P(T)
 # P(H|D) = (P(D|H) * P(H)) / P(D). 
@@ -34,7 +34,9 @@ end
 post_probability = bayes_example()
 println("La probabilidad de que el paciente tenga la enfermedad dado un resultado positivo en la prueba es: ", post_probability)
 
-# ejemplo de simulación de bayes
+# ejemplo de simulación de bayes variando la prevalencia.
+## La prevalencia es la "carga" de la enfermedad en la población, es decir, 
+## la proporción de personas que tienen la enfermedad en un momento dado.
 sensitivity = 0.99
 specificity = 0.95
 
