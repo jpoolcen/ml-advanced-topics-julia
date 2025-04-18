@@ -10,5 +10,5 @@ La intención es comprender a profundidad los conceptos de inferencia bayesiana,
 ## 📂 Estructura del Repositorio
 
 En el repositorio puede encontrar seccion acordes a los topicos cubiertos.
--bayesian: este directorio contiene ejercicios de estimacion de Bayes,distribucion a posteriori, MLE y MAP. En cada ejercicio se anexa una visualizacion. 
+- **bayesian**: este directorio contiene ejercicios de estimación de Bayes,distribución a posteriori, MLE y MAP. En cada ejercicio se anexa una visualizacion. En los ejercicios se consideran datos sintéticos sobre salud mental.
 
