@@ -65,3 +65,13 @@ Un prior empirico se puede estimar con Jefrey y un funcional que utilice Fisher 
 Un prior informativo se puede tomar a partir de estudios previos.
 
 Jerarquicos en el cual los parametros del prior son aleatorios.
+
+## Optimizacion Bayesiana
+
+En el libro de Murphy podemos encontrar las fundamentos matematicos de esta tecnica. 
+En ejemplo propuesto consiste en maximizar la tasa de detección de casos de salud mental
+Supón que tienes un sistema que detecta casos según un umbral de puntuación 
+x (entre 0 y 1), y quieres encontrar el mejor umbral para maximizar detecciones reales.
+
+No conoces cómo se comporta la tasa real f(x), pero puedes evaluarla costosa o parcialmente (por simulación, estudio piloto, etc.).
+En Julia se utiliza Surrogates.jl para procesos gaussianos y BayesianOptimization.jl para el ciclo de optimizacion.
